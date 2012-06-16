@@ -101,7 +101,7 @@ h3, h4, h5, h6{
 	font-size: 1.75em; 
 }
 
-h4, h5, h6{
+h3, h4, h5, h6{
 	text-align: center;
 }
 
@@ -173,6 +173,43 @@ section{
 	margin-bottom: 1.0416667%; 
 }
 
+h3{
+	background-color: #000033;
+	border: 2px outset #000066;
+	margin-bottom: 0;
+}
+
+table{
+	width: 98%;
+	height: 500px;
+	margin: 10px;
+	background-color: #E6E6FF;
+	color: #000033;
+}
+	
+table, th, td{
+	border: 2px outset #000066;
+}
+
+th{
+	height: 20px;
+	width: 100px;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	background-color: #FFFF99;
+	
+}
+
+td{
+	padding: 5px;
+}
+
+
+
+
+/* Footer ----------------------------------------------------------------*/
+
 footer{
 	clear: both;
 	width: 99.583333%;
@@ -185,5 +222,12 @@ footer{
 	overflow: hidden;
 	margin-bottom: 1.0416667%; 
 }
+
+footer p{
+	float: left;
+	padding: 1.0416667%;
 }
 
+.legal{
+	float: right;
+}

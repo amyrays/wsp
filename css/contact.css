@@ -62,7 +62,7 @@ li{
 	list-style-type: none;
 }
 
-p{
+p, th, td{
 	font-family: 'Tenor Sans', sans-serif;
 	font-size: 1.25em; 
 	margin: 0 0 1.041666666% 0;
@@ -101,13 +101,13 @@ h3, h5, h6{
 	font-size: 1.75em; 
 }
 
-h4{
+h4, th{
 	font-family: 'Tinos', serif;
 	font-weight: bold;
 	margin: 1.041666666%;
 	padding: 0;
 	text-shadow: 3px 3px 3px #3366CC;
-	font-size: 1.25em;
+	font-size: 1.5em;
 }
 
 
@@ -160,9 +160,9 @@ background: #660000;
 /* Head ----------------------------------------------------------------*/
 
 #contact_us{
-	clear: left;
 	float: left;
 	width: 64.166667%;
+	margin-bottom: 10px;
 	background-color: #000033;
 	border: 2px outset #000066;
 	border-radius: 7px;
@@ -172,34 +172,96 @@ background: #660000;
 	overflow: hidden
 }
 
-.images{
-	list-style-type: none;
-	margin: 0;
-	padding: 0 1.0416667% 0 0;
-	float: left;
+table{
+	width: 100%;
+	margin: 0 0 10px 0;
 }
 
-.office li, .visit li{
-	font-size: 1.1em;
+#contact_us table th{
+	padding-bottom: 10px;
 }
-
-#contact_info, #schedule{
-	padding: 1.0416667%;
-}
-
-#schedule{
-	float: right;
-}
-
-#schedule, .hours li{
-	font-size: 1.1em;
-}
-
-
 
 /* Form ---------------------------------------------------------*/
 
 #form{
+	float: left;
+	width: 64.166667%;
+	background-color: #000033;
+	border: 2px outset #000066;
+	border-radius: 7px;
+	box-shadow: 3px 3px 5px #333;
+	color: #E6E6FF;
+	padding: 1.0416667% 1.0416667% 0 1.0416667%;	
+	overflow: hidden;
+	margin-bottom: 1.0416667%;
+}
+
+form    {
+	margin:0;
+	position:relative;
+	width:285px;
+	font-family: 'Tinos', serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #E6E6FF;
+	text-decoration: none;
+}
+
+#form form{
+	width: 100%;
+}
+
+input{
+	width: 275px;
+	display:block;
+	border: 1px solid #999;
+	height: 20px;
+}
+
+textarea#feedback{
+width:275px;
+height:100px;
+}
+
+textarea{
+display:block;
+}
+
+.user_details{
+	float: left;
+}
+
+.user_message{
+	float: right;
+}
+
+input, textarea { 		
+    margin: 4px 0 5px 0; 
+    background: #fff; 
+    width: 220px; 
+    font-size: 14px; 
+    color: #555; 
+    border: 1px #ddd solid;
+}
+
+form button{
+	padding: 10px;
+	margin: 40px 0 0 145px;
+	font-family: 'Tinos', serif;
+	font-size: 1.25em;
+	text-decoration: none;
+	padding: 10px;
+	background-color: #660000;
+	border: 2px outset #660033;
+	border-radius: 7px;
+	box-shadow: 2px 2px 3px #333;
+	color: #E6E6FF;
+}
+
+/* Directions----------------------------------------------------------*/
+
+#directions{
 	float: right;
 	width: 29.604167%;
 	background-color: #000033;
@@ -211,43 +273,15 @@ background: #660000;
 	overflow: hidden;
 }
 
-form    {
-	margin:auto;
-	position:relative;
-	width:285px;
-	font-family: font-family: 'Tinos', serif;
-	font-size: 14px;
-	line-height: 24px;
-	font-weight: bold;
-	color: #E6E6FF;
-	text-decoration: none;
-	padding:10px;
-	
-}
-
-input {
-	width:200px;
-	display:block;
-	border: 1px solid #999;
-	height: 25px;
-}
-
-form div span{
-	float: left;
-	text-align: right;
-}
-
-/* Directions----------------------------------------------------------*/
-
-.directions h3{
-	clear: both;
+#directions p{
+	clear: right;
 }
 
 /* Footer ------------------------------------------------------------*/
 
 
 footer{
-	clear: left;
+	clear: both;
 	background-color: #000033;
 	border: 2px outset #000066;
 	border-radius: 7px;

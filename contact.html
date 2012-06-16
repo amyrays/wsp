@@ -22,7 +22,7 @@
 				<li><a href="index.html" id="homenav">Home</a></li>
 				<li><a href="#" id="policiesnav">Policies</a></li>
 				<li><a href="#" id="historynav">History</a></li>
-				<li><a href="generic.html" id="calendarnav">Calendar</a></li>
+				<li><a href="calendar.html" id="calendarnav">Calendar</a></li>
 				<li><a href="#" id="parentsnav">Parents</a></li>
 				<li><a href="contact.html" id="contactnav">Contact</a></li>
 				</ul> 
@@ -31,88 +31,98 @@
 	</header>
 <!-- Contact Info -->		
 	<section id="contact_us">
-		<div>
-			<ul class="images">
-				<li><img src="images/office.jpg" alt="Office"/></li>
-				<li><img src="images/school_verysm.jpg" alt="School"/></li>
-			</ul>
-		</div>
 		
-		<div id="contact_info">			
-			<h4>Contact the Office</h4>
-			<ul class="office">
-				<li>Phone:(407)746-1650</li>
-				<li>Fax:(407)746-1699</li>
-			</ul>
-			
-			<h4>Visit Our School</h4>
-			<ul class="visit">
-				<li>695 Orange Avenue</li>
-				<li>Altamonte Springs, FL</li>
-				<li>32714</li>
-			</ul>
-		</div>
-		<div id="schedule">	
-			<h4>Office Hours</h4>
-			<ul class="hours">
-				<li>Monday - Friday</li>
-				<li>7:30am - 3:30pm</li>
-			</ul>
-			
-			<h4>School Hours</h4>
-			<ul class="hours">
-				<li>Mon, Tu, Th, Fri</li>
-				<li>7:40am - 2:20pm</li>
-				<li>(Early Dismissal)</li>
-				<li>7:40am - 1:20pm</li>
-			</ul>
-		</div>
+		<table>
+			  <tr>
+    			<th>Contact Information</th>
+    			<th>Office Hours</th>
+    			<th>In Session</th>
+  			 </tr>
+ 			 <tr>
+    			<td>Phone: (407)746-1650</td>
+    			<td>Monday - Friday</td>
+    			<td>Mon, Tu, Th, Fri</td>
+  			</tr>
+  			<tr>
+   			    <td>Fax: (407)746-1699</td>
+    			<td>7:30am - 3:30pm</td>
+    			<td>7:40am - 2:20pm</td>
+  			</tr>
+  			<tr>
+    			<td>695 Orange Avenue</td>
+    			<td></td>
+    			<td>(Early Dismissal)</td>
+  			</tr>
+  			<tr>
+    			<td>Altamonte Springs, FL</td>
+    			<td></td>
+    			<td>7:40am - 1:20pm</td>
+  			</tr>
+  			<tr>
+    			<td>32714</td>
+    			<td></td>
+    			<td></td>
+  			</tr>
+	</table>
+		
+	</section>
+	
+		
+<!-- Directions -->
+	
+	<section id="directions">
+			<img id="map" src="images/directions.jpg" alt="Map to Spring Lake Elementary" title="Directions to Spring Lake Elementary"/>
+			<img id="school_sm" src="images/school_sm.jpg" alt="Photo of Spring Lake Elementary School" title="Spring Lake Elementary School"/>
+			<p>Visit <a href="http://maps.google.com/">Google Maps</a> to get directions to <strong>Spring Lake Elementary</strong> from your location.</p> 
+		
 	</section>	
+	
 <!-- Form -->		
 	<section id="form">
-				<h5>Questions? Email Us</h5>
+				<h5>Questions or Concerns? Email Us!</h5>
+				<p>We look forward to hearing from you. Just fill out the form below and we will get back to you within <strong>1</strong> school day. 
 		<form>
-			<div>
+			<div class="user_details">
 				<label>
-					<span>Name</span>
-					<input id="name" type="text" name="name"/>
+					<span>First Name</span>
+					<input id="first_name" type="text" name="first" placeholder="First Name" required="required"/>
 				</label>
-
+				
+				<label>
+					<span>Last Name</span>
+					<input id="last_name" type="text" name="last" placeholder="Last Name"/>
+				</label>
+			
 				<label>
 					<span>Email</span>
-					<input id="email" type="text" name="email"/>
+					<input id="email" type="text" name="email" placeholder="youremail@example.com" required="required"/>
 				</label>
 				
 				<label>
 					<span>Phone</span>
-					<input id="phone" type="text" name="phone"/>
+					<input id="phone" type="text" name="phone" placeholder="476-555-1234"/>
 				</label>
-				
+			
+			</div>
+			<div class="user_message">	
 				<label>
 					<span>Message</span>
-					<textarea id="feedback" name="feedback"></textarea>
-					
-					<input type="button" value="Send Message"/>
+					<textarea id="feedback" name="feedback" placeholder="Please type your questions, comments, or other concers here."></textarea>
+				</label>
+				<label>	
+					<button type="button">Send Message</button>
 				</label>
 			</div>
 	</form>			
 	</section>
-	
-	<section id="directions">
-			<img id="map" src="images/directions.jpeg" alt="Map to Spring Lake Elementary" title="Directions to Spring Lake Elementary"/>
-			<img id="school_sm" src="images/school_sm.jpg" alt="Photo of Spring Lake Elementary School" title="Spring Lake Elementary School"/>
-			<p>Visit <a href="http://maps.google.com/">Google Maps</a> to get directions from your location.</p> 
-			<h3>Spring Lake Elementary</h3>
-			<ul class="address">
-				<li>695 Orange Avenue</li>
-				<li>Altamonte Springs, FL</li>
-				<li>32714</li>
-			</ul>
-	</section>	
 
 	
+
+	
+	
 	<footer>
-			<p class="copyright">Website designed &amp; developed by Amy Ostler from Amy R.A.Y.S. Web Design &copy; 2012</p>
+			<p><p>Spring Lake Elementary 2012, Altamonte Springs, FL</p>
+			<p class=legal>All rights reserved | <a href="#">Legal</a></p></p>
 	</footer>
 	
 </body>

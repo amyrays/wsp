@@ -40,20 +40,35 @@
 <!-- Newsletters -->
 			
 	<section class="newsletters">
-				<h4>Manatees Newsletters</h4>
-				<ul class="redbuttons">
-					<li><a href="#">Kindergarten</a></li>
-					<li><a href="#">First Grade</a></li>
-					<li><a href="#">Second Grade</a></li>
-				</ul>
-				<ul class="redbuttons">	
-					<li><a href="#">Third Grade</a></li>
-					<li><a href="#">Fourth Grade</a></li>
-					<li><a href="#">Fifth Grade</a></li>
-				</ul>
-					
-				<p>*Adobe Reader is required to view the Newsletters. If you do 
-not have Adobe Reader please click <a href="http://get.adobe.com/reader">here to download it.</a></p>
+			<h4>Manatees Newsletters</h4>
+			<form method="get">
+                <p>Please select one or more newsletters you would like to have sent direct to your email.</p>
+            		<div class="checkbox">   
+                        <input type="checkbox" name="grade" value="Kindergarten"/>Kindergarten<br/>
+					</div>
+					<div class="checkbox">
+                        <input type="checkbox" name="grade" value="First Grade"/>First Grade<br/>
+					</div>
+					<div class="checkbox">
+                        <input type="checkbox" name="grade" value="Second Grade"/>Second Grade<br/>
+					</div>
+					<div class="checkbox">
+                        <input type="checkbox" name="grade" value="Third Grade"/>Third Grade<br/>
+					</div>
+					<div class="checkbox">
+                        <input type="checkbox" name="grade" value="Fourth Grade"/>Fourth Grade<br/>
+					</div>
+					<div class="checkbox">
+                        <input type="checkbox" name="grade" value="Fifth Grade"/>Fifth Grade<br/>
+					</div>
+				<p class="submit">Email address:</p>
+					<div class="email">
+						<input type="text" placeholder="youremail@example.com" name="email" /><br />
+                    </div>
+                    <div class="subscribe_button">
+                        <button type="button">Subscribe</button>
+       				</div>
+			</form>
 	</section>
 	
 <!-- Calendar CTA -->	
@@ -66,7 +81,7 @@ not have Adobe Reader please click <a href="http://get.adobe.com/reader">here to
 			<button type="button">View Calendar</button>
 			
 	</section>	
-	
+<!-- Footer -->
 	<footer>
 			<p>Spring Lake Elementary 2012, Altamonte Springs, FL</p>
 			<p class=legal>All rights reserved | <a href="#">Legal</a></p>

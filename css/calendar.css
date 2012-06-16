@@ -62,7 +62,7 @@ li{
 	list-style-type: none;
 }
 
-p, legend, checkbox, .newsletters form div{
+p{
 	font-family: 'Tenor Sans', sans-serif;
 	font-size: 1.25em; 
 	margin: 0 0 1.041666666% 0;
@@ -158,10 +158,9 @@ body#calendar a#calendarnav{
 	background: #660000;
 }
 
+/* Calendar ----------------------------------------------------------------*/
 
-/* Head ----------------------------------------------------------------*/
-
-#slide{
+section{
 	clear: both;
 	width: 99.583333%;
 	background-color: #000033;
@@ -174,144 +173,17 @@ body#calendar a#calendarnav{
 	margin-bottom: 1.0416667%; 
 }
 
-#slide img{
-	float: left;
-	padding: 1.0416667%;
-}
-
-.mission_head{
-	float: right;
-	font-size: 1.5em;
-}
-
-.mission{
-	width: 33%;
-	font-size: 1.25em;
-	text-align: left;
-	float: right;
-}
-
-/* Newsletters ---------------------------------------------------------*/
-
-.newsletters{
-	width: 63.159722%;
-	clear: both;
-	background-color: #000033;
-	border: 2px outset #000066;
-	border-radius: 7px;
-	box-shadow: 3px 3px 5px #333;
-	color: #E6E6FF;
-	padding: 0 1.0416667% 1.0416667%;		
-	overflow: hidden;
-	margin-bottom: 2.0833333%;
-	margin-right: 1.0416667%;
-	float: left;
-}
-
-.newsletters form div{
-	vertical-align: baseline;
-	float: left;
-	font-size: 1.25em;
-	width: 160px;
-}
-
-.newsletters form legend{
-	margin: 10px 0;
-}
-
-.newsletters form .checkbox{
-	margin-left: 30px;
-}
-
-.newsletters form button{
-	padding: 10px;
-	margin: 0;
-	font-family: 'Tinos', serif;
-	font-size: 1em;
-	text-decoration: none;
-	padding: 10px;
-	background-color: #660000;
-	border: 2px outset #660033;
-	border-radius: 7px;
-	box-shadow: 2px 2px 3px #333;
-	color: #E6E6FF;
-}
-
-/* Calendar CTA---------------------------------------------------------*/
-
-.events{
-	width: 30.79861%;			
-	background-color: #000033;
-	border: 2px outset #000066;
-	border-radius: 7px;
-	box-shadow: 3px 3px 5px #333;
-	color: #E6E6FF;
-	padding: 0 1.0416667% 1.0416667%;	
-	overflow: hidden;
-	margin-bottom: 1.0416667%;			
-}
-
-.events ul li{
-	font-size: 1.25em;
-}
-
-section button{
-	padding: 10px;
-	margin: 58px 0 0 145px;
-	font-family: 'Tinos', serif;
-	font-size: 1.25em;
-	text-decoration: none;
-	padding: 10px;
-	background-color: #660000;
-	border: 2px outset #660033;
-	border-radius: 7px;
-	box-shadow: 2px 2px 3px #333;
-	color: #E6E6FF;
-}	
-
-/* Footer ------------------------------------------------------------*/
-
-
 footer{
-	width: 97.604167%;
-	clear: left;
+	clear: both;
+	width: 99.583333%;
 	background-color: #000033;
 	border: 2px outset #000066;
 	border-radius: 7px;
 	box-shadow: 3px 3px 5px #333;
 	color: #E6E6FF;
-	padding: 1.0416667% 1.0416667% 0 1.0416667%;	
+	padding-right: 0;
 	overflow: hidden;
-	margin-bottom: 2.0833333%;
+	margin-bottom: 1.0416667%; 
 }
-
-footer p{
-	float: left;
-	padding: 1.0416667%;
 }
-
-.legal{
-	float: right;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

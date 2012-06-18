@@ -231,3 +231,113 @@ footer p{
 .legal{
 	float: right;
 }
+
+/* Media Queries ----------------------------------------------------*/
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width:768px)and (max-width:959px){
+
+#logo{
+	width: 25%;
+}
+
+h1, h2{
+	font-size: 1.5em;
+}
+
+h4, h5{
+	font-size: 1.5em;
+}
+
+li{
+	font-size: 1.25em;
+}
+
+#button li a{
+	width: 90px;
+}
+
+section table{
+	width: 97%
+}
+
+
+}
+
+/* Mobile Landscape size to tablet portrait (devices and browsers) */
+@media only screen and (min-width:480px)and (max-width:767px){
+
+
+#logo{
+	width: 15%;
+}
+
+h1, h2{
+	font-size: 1.25em;
+}
+
+h4, h5{
+	font-size: 1.25em;
+}
+
+p{
+	font-size: 1.15em;
+}
+
+li{
+	font-size: 1.25em;
+}
+
+#button li a{
+	width: 90px;
+}
+
+
+}
+
+/* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
+@media only screen and (max-width:479px){
+	
+#logo{
+	display: none;
+}
+
+h1, h2, h3{
+	font-size: 1.25em;
+}
+
+
+
+p{
+	font-size: 1.15em;
+}
+
+li{
+	font-size: 1.25em;
+}
+
+#button li a{
+	width:43%;
+}
+
+section table{
+	width: 90%;
+}
+
+section table{
+	font-size: .75em;
+}
+
+section table{
+	height: 200px;
+}
+
+footer p{
+	text-align: center;
+}
+
+}
+	
+
+
+

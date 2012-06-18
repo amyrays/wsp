@@ -275,7 +275,7 @@ body#calendar a#calendarnav{
 	padding: 10px;
 	width: 150px;
 	overflow: hidden;
-	margin: 0 0 0 145px;
+	margin: 0 0 0 142px;
 	font-family: 'Tinos', serif;
 	font-size: 1.25em;
 	text-decoration: none;
@@ -312,24 +312,212 @@ footer p{
 	float: right;
 }
 
+/* Media Queries ----------------------------------------------------*/
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width:768px)and (max-width:959px){
+
+#logo{
+	width: 25%;
+}
+
+h1, h2{
+	font-size: 1.5em;
+}
+
+h4, h5{
+	font-size: 1.5em;
+}
+
+li{
+	font-size: 1.25em;
+}
+
+#button li a{
+	width: 90px;
+}
+
+#slide img{
+	width: 50%;
+}
+
+.mission{
+	font-size: 1.15em;
+}
+
+.mission_head{
+	font-size: 1.35em;
+}
+
+.newsletters{
+	width: 65%;
+}
+
+.newsletters form .checkbox{
+	margin: 10px;	
+}
+
+.newsletters .email input, .subscribe_button button{
+ 	margin-left: 275px;
+}
 
 
+.newsletters form div{
+	font-size: 1.15em;
+}
+
+.events{
+	width: 28.55%;
+}
+
+.events a{
+	margin-left: 25%;
+}
 
 
+}
+
+/* Mobile Landscape size to tablet portrait (devices and browsers) */
+@media only screen and (min-width:480px)and (max-width:767px){
 
 
+#logo{
+	width: 15%;
+}
+
+h1, h2{
+	font-size: 1.25em;
+}
+
+h4, h5{
+	font-size: 1.25em;
+}
+
+p{
+	font-size: 1.15em;
+}
+
+li{
+	font-size: 1.25em;
+}
+
+#button li a{
+	width: 90px;
+}
+
+#slide img{
+	width: 50%;
+}
+
+.mission{
+	font-size: 1.15em;
+}
+
+.mission_head{
+	font-size: 1.35em;
+}
+
+.newsletters{
+	width: 65%;
+}
+
+.newsletters form .checkbox{
+	margin: 10px;	
+}
+
+.newsletters .email input, .subscribe_button button{
+ 	margin-left: 225px;
+}
 
 
+.newsletters form div{
+	font-size: 1.15em;
+}
+
+.events{
+	width: 28.55%;
+}
+
+.events a{
+	margin-left: 25%;
+}
+
+}
+
+/* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
+@media only screen and (max-width:479px){
+	
+#logo{
+	display: none;
+}
+
+h1, h2{
+	font-size: 1.25em;
+}
+
+h4, h5{
+	font-size: 1.25em;
+}
+
+p{
+	font-size: 1.15em;
+}
+
+li{
+	font-size: 1.25em;
+}
+
+#button li a{
+	width:43%;
+}
+
+#slide img{
+	display: none;
+}
+
+.mission{
+	font-size: 1.15em;
+	float: none;
+	width: auto;
+	clear: left;
+}
+
+.mission_head{
+	font-size: 1.35em;
+	float: left;
+}
+
+.newsletters{
+	width: 97%;
+}
+
+.newsletters form .checkbox{
+	margin: 10px;	
+}
+
+.newsletters .email input, .subscribe_button button{
+ 	margin-left: 180px;
+}
 
 
+.newsletters form div{
+	font-size: 1.15em;
+}
 
+.events{
+	width: 97%;
+}
 
+.events a{
+	margin-left:40%;
+}
 
+footer p{
+	text-align: center;
 
+}
 
-
-
-
-
-
+}
+	
+}
 

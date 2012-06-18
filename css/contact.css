@@ -301,4 +301,110 @@ footer p{
 	float: right;
 }
 
+/* Media Queries ----------------------------------------------------*/
 
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width:768px)and (max-width:959px){
+
+#logo{
+	width: 15%;
+}
+
+h1, h2{
+	font-size: 1.5em;
+}
+
+h4, h5{
+	font-size: 1.5em;
+}
+
+li{
+	font-size: 1.25em;
+}
+
+#button li a{
+	width: 90px;
+}
+
+p{
+	1em;
+}
+
+#contact_us table th{
+	font-size: 1.5em;
+}
+
+}
+
+/* Mobile Landscape size to tablet portrait (devices and browsers) */
+@media only screen and (min-width:480px)and (max-width:767px){
+
+
+#logo{
+	width: 12.5%;
+}
+
+h1, h2{
+	font-size: 1.5em;
+}
+
+h4, h5{
+	font-size: 1.5em;
+}
+
+li{
+	font-size: 1.25em;
+}
+
+#button li a{
+	width: 90px;
+}
+
+#contact_us{
+	width: 97%
+}
+
+#directions{
+	clear: both;
+	width: 97%;
+}
+
+#form{
+	clear: both;
+	width: 97%
+}
+
+
+/* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
+@media screen and (max-width:479px){
+	
+
+#logo{
+	display: none;
+}
+
+h1, h2{
+	font-size: 1.25em;
+}
+
+h4, h5{
+	font-size: 1.25em;
+}
+
+li{
+	font-size: 1em;
+}
+
+#button li a{
+	width: 90px;
+}
+
+p{
+	1em;
+}
+
+#contact_us table th{
+	font-size: 1em;
+}
+
+}

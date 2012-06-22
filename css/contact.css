@@ -70,7 +70,6 @@ p, th, td{
 
 #logo{
 	float: left;
-	display: block;
 	max-width: 100%;
 	margin: 1.041666666% 1.041666666% 0 0;
 }
@@ -130,6 +129,7 @@ a:active{
 #button{
 	padding: 0;
 	float: right;
+	margin-bottom: 1.0416667%;
 }
 
 #button li{
@@ -169,7 +169,7 @@ background: #660000;
 	box-shadow: 3px 3px 5px #333;
 	color: #E6E6FF;
 	padding: 1.0416667% 1.0416667% 0 1.0416667%;	
-	overflow: hidden
+	overflow: hidden;
 }
 
 table{
@@ -236,7 +236,7 @@ display:block;
 	float: right;
 }
 
-input, textarea { 		
+input, textarea{ 		
     margin: 4px 0 5px 0; 
     background: #fff; 
     width: 220px; 
@@ -327,7 +327,7 @@ li{
 }
 
 p{
-	1em;
+	font-size: 1em;
 }
 
 #contact_us table th{
@@ -361,7 +361,7 @@ li{
 }
 
 #contact_us{
-	width: 97%
+	width: 97%;
 }
 
 #directions{
@@ -371,9 +371,10 @@ li{
 
 #form{
 	clear: both;
-	width: 97%
+	width: 97%;
 }
 
+}
 
 /* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
 @media screen and (max-width:479px){
@@ -400,11 +401,15 @@ li{
 }
 
 p{
-	1em;
+	font-size: 2em;
 }
 
 #contact_us table th{
 	font-size: 1em;
+}
+
+#contact_us, #directions, #form{
+	clear: both;
 }
 
 }

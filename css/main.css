@@ -230,7 +230,6 @@ section p a{
 
 .newsletters form button{
 	padding: 10px;
-/*	margin: 30px 0 0 40px;	*/
 	font-family: 'Tinos', serif;
 	font-size: 1em;
 	text-decoration: none;
@@ -242,18 +241,23 @@ section p a{
 	color: #E6E6FF;
 }
 
-.newsletters .email input, .subscribe_button button{
-	float: left;
-	margin-top: 30px;
+.newsletters .email{
+	width: 100%;
+	margin: 10px 0  0 280px;
+}
+
+.newsletters .email input{
 	margin-right: 10px;
-	margin-bottom: 0;
-	margin-left: 250px;
+}
+
+.newsletters input, .newseltters button{
+	float: left;
 }
 
 
 .newsletters .email input{
 	margin-top: 42px;
-	width: 220px;
+	width: 200px;
 	height: 15px;
 }
 

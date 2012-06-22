@@ -126,6 +126,7 @@ a:active{
 #button{
 	padding: 0;
 	float: right;
+	margin-bottom: 1.0416667%;
 }
 
 #button li{
@@ -159,7 +160,7 @@ body#calendar a#calendarnav{
 }
 
 
-/* Head ----------------------------------------------------------------*/
+/* Main Content --------------------------------------------------------*/
 
 #slide{
 	clear: both;
@@ -174,9 +175,8 @@ body#calendar a#calendarnav{
 	margin-bottom: 1.0416667%; 
 }
 
-#slide img{
+#slide iframe{
 	float: left;
-	padding: 1.0416667%;
 }
 
 .mission_head{
@@ -185,12 +185,17 @@ body#calendar a#calendarnav{
 }
 
 .mission{
-	width: 33%;
+	width: 32%;
 	font-size: 1.25em;
 	text-align: left;
 	float: right;
+	margin-left: 1.0416667%;
 }
 
+section p a{
+	float: right;
+	margin: 2.60416667% 1.0416667% 1.0416667% 0;
+}
 /* Newsletters ---------------------------------------------------------*/
 
 .newsletters{
@@ -242,14 +247,15 @@ body#calendar a#calendarnav{
 	margin-top: 30px;
 	margin-right: 10px;
 	margin-bottom: 0;
-	margin-left: 340px;
+	margin-left: 250px;
 }
 
 
 .newsletters .email input{
 	margin-top: 42px;
+	width: 220px;
+	height: 15px;
 }
-
 
 /* Calendar CTA---------------------------------------------------------*/
 
@@ -318,7 +324,7 @@ footer p{
 @media screen and (min-width:768px)and (max-width:959px){
 
 #logo{
-	width: 25%;
+	width: 20%;
 }
 
 h1, h2{
@@ -382,7 +388,7 @@ li{
 
 
 #logo{
-	width: 15%;
+	width: 12%;
 }
 
 h1, h2{
@@ -519,5 +525,5 @@ footer p{
 
 }
 	
-}
+
 

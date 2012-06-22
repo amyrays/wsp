@@ -1,0 +1,302 @@
+/* CSS Reset---------------------------------------------------*/
+
+/* 
+CSS Mini Reset
+http://www.vcarrer.com/2010/05/css-mini-reset.html
+CSSresetr.com
+*/
+
+html, body, div, form, fieldset, legend, label{
+ 	margin: 0;
+	padding: 0; 
+}
+
+table{
+ 	border-collapse: collapse;
+ 	border-spacing: 0;
+}
+
+th, td{
+ 	text-align: left;
+ 	vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6, th, td, caption{ 
+	font-weight:normal; 
+}
+
+img{ 
+	border: 0; 
+}
+
+/* Fonts ----------------------------------------------------------------------
+
+	Header				font-family: 'Sonsie One', cursive;
+	Sub-Header			font-family: 'Tinos', serif;
+	Paragraphs			font-family: 'Tenor Sans', sans-serif;
+	
+-------------------------------------------------------------------------------*/	
+
+/* Web Page -----------------------------------------------------------------*/
+
+body{
+	max-width: 960px;
+	font-size: 100%;
+	line-height: 1.2;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #6699FF;
+	background: #57759b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #57759b 0%, #74a3c9 34%, #95bad8 69%, #bed4e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#57759b), color-stop(34%,#74a3c9), color-stop(69%,#95bad8), color-stop(100%,#bed4e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #57759b 0%,#74a3c9 34%,#95bad8 69%,#bed4e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #57759b 0%,#74a3c9 34%,#95bad8 69%,#bed4e5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #57759b 0%,#74a3c9 34%,#95bad8 69%,#bed4e5 100%); /* IE10+ */
+	background: linear-gradient(top,  #57759b 0%,#74a3c9 34%,#95bad8 69%,#bed4e5 100%); /* W3C */
+}
+
+li{
+	font-family: 'Tenor Sans', sans-serif;
+	font-size: 1.25em;
+	line-height: 1.2;
+	list-style-type: square;
+}
+
+p{
+	font-family: 'Tenor Sans', sans-serif;
+	font-size: 1.25em; 
+	margin: 0 0 1.041666666% 0;
+	padding: 1.041666666% 0 1.041666666% 0;
+}
+
+#logo{
+	float: left;
+	display: block;
+	max-width: 100%;
+	margin: 1.041666666% 1.041666666% 0 0;
+}
+/* Branding-----------------------------------------------------------*/
+
+.branding{
+	float: left;
+	margin: 4.1666667% 10.416667% 0 0;
+	color: #000033;
+}
+
+.tagline{
+	float: right;
+	margin: 0;
+}
+
+h1, h2{
+	font-family: 'Sonsie One', cursive;
+	text-shadow: 3px 3px 5px #333;
+}
+/* Other Headers--------------------------------------------------------*/
+h3{
+	font-family: 'Tinos', serif;
+	font-weight: bold;
+	margin: 1.041666666%;
+	padding: 0;
+	text-shadow: 3px 3px 3px #3366CC;
+	font-size: 1.75em; 
+	text-align: center;
+}
+
+
+
+/*Links-------------------------------------------------------------------------*/
+
+a:link{
+	color: #FFFF99;
+}
+a:visited{
+	color: #6699FF;
+}
+a:hover{
+	color: #FF00FF;
+}
+a:active{
+	color: #006600;
+}
+
+/* Main Nav----------------------------------------------------------------------*/
+
+#button{
+	padding: 0;
+	float: right;
+	margin-bottom: 1.0416667%;
+}
+
+#button li{
+	display: inline;
+	text-align: center;
+}
+
+#button li a{
+	font-family: 'Tinos', serif;
+	font-size: 1.25em;
+	text-decoration: none;
+	float: left;
+	width: 105px;
+	padding: 10px;
+	background-color: #000033;
+	border: 2px outset #000066;
+	border-radius: 7px;
+	box-shadow: 3px 3px 5px #333;
+	color: #fff;
+	text-shadow: 3px 3px 3px #3366CC;
+}
+
+body#policies a#policiesnav{
+	color: #fff;
+	background: #660000;
+}
+
+/* Main Content -------------------------------------------------*/
+
+section{
+	clear: both;
+	background-color: #000033;
+	border: 2px outset #000066;
+	border-radius: 7px;
+	box-shadow: 3px 3px 5px #333;
+	color: #E6E6FF;
+	padding: 1.0416667% 1.0416667% 0 1.0416667%;	
+	overflow: hidden;
+	margin-bottom: 2.0833333%;
+}
+
+/* Important Documents -----------------------------------------*/
+
+aside{	
+	float: right;
+	width: 30.604167%;
+	background-color: #000033;
+	border: 2px outset #000066;
+	border-radius: 7px;
+	box-shadow: 3px 3px 5px #333;
+	color: #E6E6FF;
+	padding: 1.0416667% 1.0416667% 0 1.0416667%;	
+	overflow: hidden;
+}
+
+/* Footer ------------------------------------------------------------*/
+
+
+footer{
+	width: 97.604167%;
+	clear: left;
+	background-color: #000033;
+	border: 2px outset #000066;
+	border-radius: 7px;
+	box-shadow: 3px 3px 5px #333;
+	color: #E6E6FF;
+	padding: 1.0416667% 1.0416667% 0 1.0416667%;	
+	overflow: hidden;
+	margin-bottom: 2.0833333%;
+}
+
+footer p{
+	float: left;
+	padding: 1.0416667%;
+}
+
+.legal{
+	float: right;
+}
+
+
+/* Media Queries ----------------------------------------------------*/
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width:768px)and (max-width:959px){
+
+#logo{
+	width: 20%;
+}
+
+h1, h2{
+	font-size: 1.5em;
+}
+
+h4, h5{
+	font-size: 1.5em;
+}
+
+li{
+	font-size: 1.25em;
+}
+
+#button li a{
+	width: 90px;
+}
+
+}
+
+/* Mobile Landscape size to tablet portrait (devices and browsers) */
+@media only screen and (min-width:480px)and (max-width:767px){
+
+
+#logo{
+	width: 12%;
+}
+
+h1, h2{
+	font-size: 1.25em;
+}
+
+h4, h5{
+	font-size: 1.25em;
+}
+
+p{
+	font-size: 1.15em;
+}
+
+li{
+	font-size: 1.25em;
+}
+
+#button li a{
+	width: 90px;
+}
+
+}
+
+/* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
+@media only screen and (max-width:479px){
+	
+#logo{
+	display: none;
+}
+
+h1, h2{
+	font-size: 1.25em;
+}
+
+h4, h5{
+	font-size: 1.25em;
+}
+
+p{
+	font-size: 1.15em;
+}
+
+li{
+	font-size: 1.25em;
+}
+
+#button li a{
+	width:43%;
+}
+
+footer p{
+	text-align: center;
+
+}
+
+}
+	
+
+

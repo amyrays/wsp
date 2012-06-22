@@ -62,7 +62,7 @@ li{
 	list-style-type: none;
 }
 
-p, th, td{
+p{
 	font-family: 'Tenor Sans', sans-serif;
 	font-size: 1.25em; 
 	margin: 0 0 1.041666666% 0;
@@ -91,24 +91,15 @@ h1, h2{
 	text-shadow: 3px 3px 5px #333;
 }
 /* Other Headers--------------------------------------------------------*/
-h3, h5, h6{
+h3, h4, h5, h6{
 	font-family: 'Tinos', serif;
 	font-weight: bold;
 	margin: 1.041666666%;
 	padding: 0;
 	text-shadow: 3px 3px 3px #3366CC;
 	font-size: 1.75em; 
+	text-align: center;
 }
-
-h4, th{
-	font-family: 'Tinos', serif;
-	font-weight: bold;
-	margin: 1.041666666%;
-	padding: 0;
-	text-shadow: 3px 3px 3px #3366CC;
-	font-size: 1.5em;
-}
-
 
 /*Links-------------------------------------------------------------------------*/
 a:link{
@@ -152,40 +143,16 @@ a:active{
 	text-shadow: 3px 3px 3px #3366CC;
 }
 
-body#contact a#contactnav{
+body#history a#historynav{
 color: #fff;
 background: #660000;
 }
 
-/* Head ----------------------------------------------------------------*/
+/* Main Content -----------------------------------------*/
 
-#contact_us{
-	float: left;
-	width: 64.166667%;
-	margin-bottom: 10px;
-	background-color: #000033;
-	border: 2px outset #000066;
-	border-radius: 7px;
-	box-shadow: 3px 3px 5px #333;
-	color: #E6E6FF;
-	padding: 1.0416667% 1.0416667% 0 1.0416667%;	
-	overflow: hidden;
-}
-
-table{
-	width: 100%;
-	margin: 0 0 10px 0;
-}
-
-#contact_us table th{
-	padding-bottom: 10px;
-}
-
-/* Form ---------------------------------------------------------*/
-
-#form{
-	float: left;
-	width: 64.166667%;
+section{
+	clear: both;
+	width: 97.604167%;
 	background-color: #000033;
 	border: 2px outset #000066;
 	border-radius: 7px;
@@ -196,74 +163,14 @@ table{
 	margin-bottom: 1.0416667%;
 }
 
-form    {
-	margin:0;
-	position:relative;
-	width:285px;
-	font-family: 'Tinos', serif;
-	font-size: 14px;
-	line-height: 24px;
-	font-weight: bold;
-	color: #E6E6FF;
-	text-decoration: none;
-}
-
-#form form{
-	width: 100%;
-}
-
-input{
-	width: 275px;
-	display:block;
-	border: 1px solid #999;
-	height: 20px;
-}
-
-textarea#feedback{
-width:275px;
-height:100px;
-}
-
-textarea{
-display:block;
-}
-
-.user_details{
-	float: left;
-}
-
-.user_message{
-	float: right;
-}
-
-input, textarea{ 		
-    margin: 4px 0 5px 0; 
-    background: #fff; 
-    width: 220px; 
-    font-size: 14px; 
-    color: #555; 
-    border: 1px #ddd solid;
-}
-
-form button{
-	padding: 10px;
-	margin: 40px 0 0 145px;
-	font-family: 'Tinos', serif;
+aside li{
+	list-style-type: square;
 	font-size: 1.25em;
-	text-decoration: none;
-	padding: 10px;
-	background-color: #660000;
-	border: 2px outset #660033;
-	border-radius: 7px;
-	box-shadow: 2px 2px 3px #333;
-	color: #E6E6FF;
+	line-height: 1.25em;
 }
 
-/* Directions----------------------------------------------------------*/
-
-#directions{
-	float: right;
-	width: 29.604167%;
+aside{
+	width: 97.604167%;
 	background-color: #000033;
 	border: 2px outset #000066;
 	border-radius: 7px;
@@ -271,10 +178,19 @@ form button{
 	color: #E6E6FF;
 	padding: 1.0416667% 1.0416667% 0 1.0416667%;	
 	overflow: hidden;
+	margin-bottom: 2.0833333%;
 }
 
-#directions p{
-	clear: right;
+aside h4{
+	float: left;
+}
+
+aside ul{
+	clear: left;
+}
+
+aside img{
+	float: right;
 }
 
 /* Footer ------------------------------------------------------------*/
@@ -307,31 +223,23 @@ footer p{
 @media screen and (min-width:768px)and (max-width:959px){
 
 #logo{
-	width: 15%;
+	width: 20%;
 }
 
 h1, h2{
 	font-size: 1.5em;
 }
 
-h4, h5{
+h3, h4, h5{
 	font-size: 1.5em;
 }
 
-li{
+li, p{
 	font-size: 1.25em;
 }
 
 #button li a{
 	width: 90px;
-}
-
-p{
-	font-size: 1em;
-}
-
-#contact_us table th{
-	font-size: 1.5em;
 }
 
 }
@@ -341,15 +249,19 @@ p{
 
 
 #logo{
-	width: 12.5%;
+	width: 12%;
 }
 
 h1, h2{
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
-h4, h5{
-	font-size: 1.5em;
+h3, h4, h5{
+	font-size: 1.25em;
+}
+
+p{
+	font-size: 1.15em;
 }
 
 li{
@@ -360,26 +272,15 @@ li{
 	width: 90px;
 }
 
-#contact_us{
-	width: 97%;
-}
-
-#directions{
-	clear: both;
-	width: 97%;
-}
-
-#form{
-	clear: both;
-	width: 97%;
+aside img{
+	display: none;
 }
 
 }
 
 /* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
-@media screen and (max-width:479px){
+@media only screen and (max-width:479px){
 	
-
 #logo{
 	display: none;
 }
@@ -388,28 +289,32 @@ h1, h2{
 	font-size: 1.25em;
 }
 
-h4, h5{
+h3, h4, h5{
 	font-size: 1.25em;
 }
 
+p{
+	font-size: 1.15em;
+}
+
 li{
-	font-size: 1em;
+	font-size: 1.25em;
 }
 
 #button li a{
-	width: 90px;
+	width:43%;
 }
 
-p{
-	font-size: 2em;
+aside img{
+	display: none;
 }
 
-#contact_us table th{
-	font-size: 1em;
-}
+footer p{
+	text-align: center;
 
-#contact_us, #directions, #form{
-	clear: both;
 }
 
 }
+	
+
+

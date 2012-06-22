@@ -126,6 +126,7 @@ a:active{
 #button{
 	padding: 0;
 	float: right;
+	margin-bottom: 1.0416667%;
 }
 
 #button li{
@@ -170,7 +171,7 @@ section{
 	color: #E6E6FF;
 	padding-right: 0;
 	overflow: hidden;
-	margin-bottom: 1.0416667%; 
+	margin-bottom: 2.0833333%;
 }
 
 h3{

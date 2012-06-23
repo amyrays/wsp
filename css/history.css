@@ -280,7 +280,7 @@ aside img{
 
 /* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
 @media only screen and (max-width:479px){
-	
+
 #logo{
 	display: none;
 }
@@ -315,6 +315,5 @@ footer p{
 }
 
 }
-	
 
 

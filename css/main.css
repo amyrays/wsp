@@ -279,7 +279,7 @@ section p a{
 	font-size: 1.25em;
 	margin: 0 0 108px 0;
 }
-	
+
 
 .events a{
 	padding: 10px;
@@ -456,7 +456,7 @@ li{
 
 /* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
 @media only screen and (max-width:479px){
-	
+
 #logo{
 	display: none;
 }
@@ -528,6 +528,3 @@ footer p{
 }
 
 }
-	
-
-
